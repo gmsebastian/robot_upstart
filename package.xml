@@ -4,12 +4,11 @@
   <name>robot_upstart</name>
   <version>1.0.4</version>
   <description>
-    The robot_upstart package provides scripts which may be used to install
-    and uninstall Ubuntu Linux upstart jobs which launch groups of roslaunch files.
+    Forked from https://github.com/clearpathrobotics/robot_upstart/
+    Package to manage ROS2 nodes as system services in Ubuntu.
   </description>
 
-  <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
-  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
+  <maintainer>Sebastian Garcia</maintainer>
   <author email="mpurvis@clearpathrobotics.com">Mike Purvis</author>
 
   <license>BSD</license>
