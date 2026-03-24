@@ -1,5 +1,5 @@
 
-# robot_upstart
+# ⏻ robot_upstart
 
 Forked from https://github.com/clearpathrobotics/robot_upstart
 
@@ -27,8 +27,10 @@ Where:
 - `<path/to/setup.bash>`: Specifies the setup.bash file to be used.
 - `--symlink`: Creates a symlink that allows the launch file to be updated without needing to reinstall the service.
 
-> ⚠️ **Important:** the path to the launch file must start with the package directory.
-Absolute paths won't work.
+> [!WARNING]
+> The path to the launch file must start with the package directory.
+>
+> **Absolute paths won't work.**
 
 after that, restart the systemd daemon to apply the changes:
 
