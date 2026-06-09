@@ -77,7 +77,7 @@ sudo systemctl daemon-reload
 
 ### Convenient aliases
 
-To avoid long systemd commands, I suggest you add the following bash functions to manage the services:
+To avoid long systemd commands, I suggest you add the following bash functions to your `~/.bashrc` to manage the services:
 
 For `start`, `stop`, `enable` or `disable` services:
 
